@@ -188,7 +188,7 @@ button.button-small:hover { background: #07cb79; }
 .intro-content { display: table-cell; height: 100%; vertical-align: middle;  } 
 .content-left {  padding-left: 7%; } 
 .intro-content h1 { font-size: 72px; color: #ffffff; font-weight: bold; text-transform: uppercase; font-weight: 700; font-family: 'Raleway', sans-serif; }
-.intro-content h1 span { font-size: 30px; display: block; font-family: 'Raleway', sans-serif; font-weight: 600; margin-bottom: 10px;}
+.intro-content h1 span { font-size: 30px; display: block; font-family: 'Raleway', sans-serif; font-weight: 600; margin-bottom: 20px;}
 #typer { height: 40px; }
 #typer h2 { font-size: 28px; color: #ffffff; font-weight: 600; text-transform: uppercase; font-family: 'Raleway', sans-serif; }
 /*scroll-down*/
