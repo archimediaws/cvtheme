@@ -293,7 +293,7 @@ margin-left: -17px; line-height: 50px; }
 .skill .bar_container,  .bar { position: absolute; left: 0px; height: 14px; content: ""; top:30px;}
 .skill .bar_container { bottom: 0px; width: 100%; background-color: transparent; text-align: right; background: #f8f9fa; }
 .skill .bar {top: 0px; background: #07cb79 !important; }
-.skill .pct { position: absolute; top: -30px; right: 0; opacity: 0; transition: opacity 0.3s linear; color: #9ea8b6 !important; }
+.skill .pct { position: absolute; top: -30px; right: 50; opacity: 0; transition: opacity 0.3s linear; color: #9ea8b6 !important; }
  /*skill-chart */
 .skill-chart { margin-top: 80px; margin-left: 3px; }
 .skill-chart .skill-chart-item { margin-bottom: 8px; height: 45px;  background: #9ea8b6; border-radius: 2px; opacity: 0.8; overflow: hidden; white-space: nowrap; }
