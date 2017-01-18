@@ -1,9 +1,9 @@
 <!--
 
-Template: Sam Martin - Personal Vcard Resume HTML Template
-Author: potenzaglobalsolutions.com
-Version: 1.0
-Design and Developed by: potenzaglobalsolutions.com
+Template: Stephane ESCOBAR- Curriculum vitae HTML Theme
+Author: archimedia.ws
+Version: 1.0 
+
 
 NOTE: This is working ajax PHP contact form. This PHP form will help you to send email.
 
@@ -16,17 +16,17 @@ if(isset($_POST["action"])) {
   $email = $_POST['email'];     // Sender's email address
   $phone  = $_POST['phone'];     // Sender's email address
   $message = $_POST['message'];    // Sender's message
-  $from = 'Demo Contact Form';    
-  $to = 'demo@domain.com';     // Recipient's email address
-  $subject = 'Message from Contact Demo ';
+  $from = 'Cv en ligne';    
+  $to = 'escobarsteph@free.fr';     // Recipient's email address
+  $subject = 'Message du formulaire de contact ';
 
- $body ="From: $name \n E-Mail: $email \n Phone : $phone \n Message : $message"  ;
+ $body ="From: $name \n E-Mail: $email \n Téléphone: $phone \n Message : $message"  ;
 	
 	// init error message 
 	$errmsg='';
   // Check if name has been entered
   if (!$_POST['name']) {
-   $errmsg = 'Please enter your name';
+   $errmsg = 'saisir votre nom';
   }
 
   
