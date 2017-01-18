@@ -45,11 +45,11 @@ Version: 1.0
     var map = new google.maps.Map(mapElement, mapOptions);
 
     // Let's also add a marker while we're at it
-    var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(42.706254,2.8446493),
-        map: map,
-    icon: 'images/icons/map-marker.png',
-    });
+    //var marker = new google.maps.Marker({
+       // position: new google.maps.LatLng(42.706254,2.8446493),
+       // map: map,
+    //icon: 'images/icons/map-marker.png',
+    //});
     }
 
     google.maps.event.addDomListener(window, 'load', initialize_map);
