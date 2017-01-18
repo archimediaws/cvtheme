@@ -1,11 +1,8 @@
 /*
 
-Template: Sam Martin - Personal Vcard Resume HTML Template
-Author: potenzaglobalsolutions.com
-Version: 1.0
-Design and Developed by: potenzaglobalsolutions.com
-
-NOTE:  
+Template: Stephane ESCOBAR- Curriculum vitae HTML Theme
+Author: archimedia.ws
+Version: 1.0 
 
 */
 
@@ -23,7 +20,7 @@ NOTE:
         // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 
-      var myLatLng = new google.maps.LatLng(-37.8172098,144.9537367);
+      var myLatLng = new google.maps.LatLng(42.706262, 2.846849);
 
       var mapOptions = {
           zoom: 15,
@@ -49,9 +46,9 @@ NOTE:
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(-37.8172098,144.9537367),
+        position: new google.maps.LatLng(42.706262, 2.846849),
         map: map,
-    icon: 'images/icons/map-marker.png',
+    icon: 'images/icons/map-me.png',
     });
     }
 
