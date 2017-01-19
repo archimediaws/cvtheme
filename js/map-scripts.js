@@ -39,17 +39,18 @@ Version: 1.0
 
     // Get the HTML DOM element that will contain your map 
     // We are using a div with id="map" seen below in the <body>
-    var mapElement = document.getElementById('map-canvas');
+    // var mapElement = document.getElementById('map-canvas');
+    var mapElement = document.getElementById('map');
 
     // Create the Google Map using our element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
 
     // Let's also add a marker while we're at it
-     var marker = new google.maps.Marker({
-         position: new google.maps.LatLng(42.706254,2.8446493),
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(42.706,2.844),
         map: map,
-     icon: 'images/icons/map-marker.png',
-     });
+    icon: 'images/icons/map-marker.png',
+    });
     }
 
     google.maps.event.addDomListener(window, 'load', initialize_map);
