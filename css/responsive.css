@@ -31,7 +31,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .blog-info .blog-meta p a { margin-bottom: 3px; }
 .contact .social ul li a { padding-right: 20px; }
 .slidebar-share ul li a { padding: 0 5px; }
-
+.skill .pct {display: none;}
 
 }	
 
@@ -43,6 +43,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .contact .social ul li a { padding-right: 15px; }
 .slidebar-share ul li a { padding: 0px 1px; }
 .portfolio-item .item-info a { font-size: 16px; }
+.skill .pct {display: none;}
 }
 
 @media (max-width: 1300px) {
@@ -52,7 +53,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .blog-bottom .button-small a { font-size: 12px; padding: 8px 8px; }
 .slidebar-share h4 { font-size: 14px; }
 .portfolio-item .item-info a { font-size: 24px; }
-
+.skill .pct {display: none;}
 }
 
 
@@ -82,7 +83,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .port-meta li b { display: table-cell; }
 .port-title h2 { font-size: 24px; }
 .tags-2 li a { padding: 2px 7px; }
-
+.skill .pct {display: none;}
 }
 
 @media (max-width: 1198px) {
@@ -97,6 +98,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .author-details .author-avtar { display: block; }
 .author-details .author-name { padding-left: 0px; }
 .content-left { padding-left: 0px; }
+.skill .pct {display: none;}
 
 }
 
@@ -136,7 +138,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .port-title { margin-top: 50px; }
 .contact-content.show-contact { overflow-y: scroll; overflow-x: auto;} 
 .slidebar-widget { margin-bottom: 0px; }
-
+.skill .pct {display: none;}
 
 }
 
@@ -160,6 +162,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .about-image img { width: 100%; }
 .my-contact .contact-icon span { font-size: 28px; line-height: 40px; }
 .my-contact { margin-top: 30px; }
+.skill .pct {display: none;}
 }
 
 @media( max-width:600px) {
@@ -186,6 +189,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .date-area > .date { background: transparent; color: #ffffff; }
 .blog-single .contact-form .section-field { width: 100%; }
 .contact-toggle span { width: 60px; height: 60px; font-size: 20px; line-height: 64px; }
+.skill .pct {display: none;}
 
 }  
 
@@ -213,6 +217,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .single-portfolio-post .port-post-info { padding-left: 0px; margin-top: 30px; }
 .single-portfolio-post .port-post-social a { display: inline-block; }
 .error p { line-height: 30px; }
+.skill .pct {display: none;}
 
 }  
  

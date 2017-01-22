@@ -188,7 +188,7 @@ button.button-small:hover { background: #07cb79; }
 .intro-content { display: table-cell; height: 100%; vertical-align: middle;  } 
 .content-left {  padding-left: 7%; } 
 .intro-content h1 { font-size: 72px; color: #ffffff; font-weight: bold; text-transform: uppercase; font-weight: 700; font-family: 'Raleway', sans-serif; }
-.intro-content h1 span { font-size: 30px; display: block; font-family: 'Raleway', sans-serif; font-weight: 600; margin-bottom: 10px;}
+.intro-content h1 span { font-size: 30px; display: block; font-family: 'Raleway', sans-serif; font-weight: 600; margin-bottom: 20px;}
 #typer { height: 40px; }
 #typer h2 { font-size: 28px; color: #ffffff; font-weight: 600; text-transform: uppercase; font-family: 'Raleway', sans-serif; }
 /*scroll-down*/
@@ -224,7 +224,7 @@ margin-left: -17px; line-height: 50px; }
 }
 
 /*************************
-          about
+          qui suis je ?
 *************************/
 /*section-title*/
 .section-title { position: relative; display: block; margin-bottom: 80px; }
@@ -253,7 +253,7 @@ margin-left: -17px; line-height: 50px; }
 .about-block p b { color: #2f3742; }
 
 /*************************
-          service
+          savoir faire
 *************************/
 .service-block { position: relative; overflow: hidden; margin-right: 30px; }
 .service-block span { font-size: 50px; color: #a1aab6; display: block; margin-bottom: 30px; }
@@ -265,9 +265,9 @@ margin-left: -17px; line-height: 50px; }
 .service-block:hover .contact-button { height: 40px; }
 .service-block:hover .contact-button a span { line-height: 40px; }
 
-/*************************
-          Resume
-*************************/
+/*********************************
+          experience & formation
+**********************************/
 .resume .section-title { margin-bottom: 50px; }
 .resume .section-title h2 { margin-bottom: 0px; }
 .resume h2 { font-weight: 600; margin-bottom: 50px; }
@@ -282,7 +282,7 @@ margin-left: -17px; line-height: 50px; }
 .resume-block.clearfix .resume-info p { margin-bottom: 0px; }
 
  /*************************
-          my-skill
+          outils
 *************************/
 .my-skill .section-title .title-name-gray { left: 110px; }
 .my-skill h2 { font-weight: 600; margin-top: 0px; }
@@ -293,7 +293,7 @@ margin-left: -17px; line-height: 50px; }
 .skill .bar_container,  .bar { position: absolute; left: 0px; height: 14px; content: ""; top:30px;}
 .skill .bar_container { bottom: 0px; width: 100%; background-color: transparent; text-align: right; background: #f8f9fa; }
 .skill .bar {top: 0px; background: #07cb79 !important; }
-.skill .pct { position: absolute; top: -30px; right: 0; opacity: 0; transition: opacity 0.3s linear; color: #9ea8b6 !important; }
+.skill .pct { position: absolute; top: -30px; right: 50; opacity: 0; transition: opacity 0.3s linear; color: #9ea8b6 !important; }
  /*skill-chart */
 .skill-chart { margin-top: 80px; margin-left: 3px; }
 .skill-chart .skill-chart-item { margin-bottom: 8px; height: 45px;  background: #9ea8b6; border-radius: 2px; opacity: 0.8; overflow: hidden; white-space: nowrap; }
@@ -312,10 +312,18 @@ margin-left: -17px; line-height: 50px; }
 *************************/
 .language-skills { margin-top: 50px; }
 .language-skills h2 { margin-bottom: 30px; }
-.chart { position: relative; display: inline-block; width: 150px; height: 150px; margin-top: 50px; margin-bottom: 20px; text-align: center; }
+.chart { position: relative; display: inline-block; width: 150px; height: 150px; margin-top: 50px; margin-bottom: 20px; text-align: center;}
 .chart canvas { position: absolute; top: 0; left: 0; }
+.chart2 { position: relative; display: inline-block; width: 150px; height: 150px; margin-top: 50px; margin-bottom: 20px; text-align: center;}
+.chart2 canvas { position: absolute; top: 0; left: 0; }
+.chart3 { position: relative; display: inline-block; width: 150px; height: 150px; margin-top: 50px; margin-bottom: 20px; text-align: center;}
+.chart3 canvas { position: absolute; top: 0; left: 0; }
+.chart4 { position: relative; display: inline-block; width: 150px; height: 150px; margin-top: 50px; margin-bottom: 20px; text-align: center;}
+.chart4 canvas { position: absolute; top: 0; left: 0; }
 .percent { display: inline-block; line-height: 150px; font-size: 36px; font-weight: 600; z-index: 2; color: #9ea8b6; }
 .percent:after { content: '%';  margin-left: 0.1em; font-size: .8em; }
+
+
  .chart-bar { position: relative;  }
  .chart-bar h3 { display: inline-block; font-weight: 600; color: #9ea8b6; line-height: 36px; vertical-align: middle; margin-top: 0px; padding-left: 20px; }
  /*knowledge*/

@@ -1,11 +1,8 @@
 /*
 
-Template: Sam Martin - Personal Vcard Resume HTML Template
-Author: potenzaglobalsolutions.com
-Version: 1.0
-Design and Developed by: potenzaglobalsolutions.com
-
-NOTE:  
+Template: Stephane ESCOBAR- Curriculum vitae HTML Theme
+Author: archimedia.ws
+Version: 1.0 
 
 */
 
@@ -23,7 +20,7 @@ NOTE:
         // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 
-      var myLatLng = new google.maps.LatLng(-37.8172098,144.9537367);
+      var myLatLng = new google.maps.LatLng(42.706254,2.8446493);
 
       var mapOptions = {
           zoom: 15,
@@ -42,14 +39,15 @@ NOTE:
 
     // Get the HTML DOM element that will contain your map 
     // We are using a div with id="map" seen below in the <body>
-    var mapElement = document.getElementById('map-canvas');
+    // var mapElement = document.getElementById('map-canvas');
+    var mapElement = document.getElementById('map');
 
     // Create the Google Map using our element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(-37.8172098,144.9537367),
+        position: new google.maps.LatLng(42.706,2.844),
         map: map,
     icon: 'images/icons/map-marker.png',
     });

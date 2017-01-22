@@ -1,12 +1,9 @@
 
 /*
 
-Template: Sam Martin - Personal Vcard Resume HTML Template
-Author: potenzaglobalsolutions.com
-Version: 1.0
-Design and Developed by: potenzaglobalsolutions.com
-
-NOTE:  
+Template: Stephane ESCOBAR- Curriculum vitae HTML Theme
+Author: archimedia.ws
+Version: 1.0 
 
 */
 
@@ -153,7 +150,7 @@ $('#menu-icon').on( "click", function(e) {
                 lineWidth: 8,
                 size: 150,
                 scaleColor: false,
-                barColor: '#07cb79',
+                barColor: '#4285F4',
                 trackColor: '#f7f7f7',
                 animate: 7000,
                 onStep: function(from, to, percent) {
@@ -166,12 +163,74 @@ $('#menu-icon').on( "click", function(e) {
      offset: 400 
  });
 
+ $('.language-skills').appear(function() {
+            $('.chart2').easyPieChart({
+                easing: 'easeOutBounce',
+                lineWidth: 8,
+                size: 150,
+                scaleColor: false,
+                barColor: '#34A853',
+                trackColor: '#f7f7f7',
+                animate: 7000,
+                onStep: function(from, to, percent) {
+                    $(this.el).find('.percent').text(Math.round(percent));
+                }
+            });
+          
+           },
+      {
+     offset: 400 
+ });
+
+ $('.language-skills').appear(function() {
+            $('.chart3').easyPieChart({
+                easing: 'easeOutBounce',
+                lineWidth: 8,
+                size: 150,
+                scaleColor: false,
+                barColor: '#FBBC05',
+                trackColor: '#f7f7f7',
+                animate: 7000,
+                onStep: function(from, to, percent) {
+                    $(this.el).find('.percent').text(Math.round(percent));
+                }
+                
+            });
+
+
+          
+          
+           },
+      {
+     offset: 400 
+ });
+
+ $('.language-skills').appear(function() {
+            $('.chart4').easyPieChart({
+                easing: 'easeOutBounce',
+                lineWidth: 8,
+                size: 150,
+                scaleColor: false,
+                barColor: '#EA4335',
+                trackColor: '#f7f7f7',
+                animate: 7000,
+                onStep: function(from, to, percent) {
+                    $(this.el).find('.percent').text(Math.round(percent));
+                }
+            });
+          
+           },
+      {
+     offset: 400 
+ });
+
+
 /*************************
        intro typer
 *************************/
   var win = $(window),
       foo = $('#typer');
-      foo.typer(['<h2>UX/UI Designer / Web Developer </h2>', '<h2>frontend developer</h2>' ]);           
+      foo.typer(['<h2>Webmaster / Développeur WordPress</h2>', '<h2> Développeur Appli Mobile Web & Hybride </h2>', '<h2>Consultant / Formateur WordPress </h2>' ]);           
             win.resize(function(){
                 var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
                 foo.css({
