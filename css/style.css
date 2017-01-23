@@ -98,6 +98,14 @@ button.button-small:hover { background: #07cb79; }
 #object_four { -webkit-animation: object_four 10.5s infinite; -o-animation: object_four 10.5s infinite; -moz-animation: object_four 10.5s infinite; -ms-animation: object_four 10.5s infinite;
   animation: object_four 10.5s infinite;  }
 
+
+#object_onemore { -webkit-animation: object_onemore 10.5s infinite; -o-animation: object_onemore 10.5s infinite; -moz-animation: object_onemore 10.5s infinite; -ms-animation: object_onemore 10.5s infinite;  animation: object_onemore 10.5s infinite; }
+#object_twomore { -webkit-animation: object_twomore 10.5s infinite; -o-animation: object_twomore 10.5s infinite; -ms-animation: object_twomore 10.5s infinite; -moz-animation: object_twomore 10.5s infinite;
+  animation: object_twomore 10.5s infinite;  }
+#object_threemore { -webkit-animation: object_threemore 10.5s infinite; -o-animation: object_threemore 10.5s infinite; -moz-animation: object_threemore 10.5s infinite; -ms-animation: object_threemore 10.5s infinite; animation: object_threemore 10.5s infinite; }
+#object_fourmore { -webkit-animation: object_fourmore 10.5s infinite; -o-animation: object_fourmore 10.5s infinite; -moz-animation: object_fourmore 10.5s infinite; -ms-animation: object_fourmore 10.5s infinite;
+  animation: object_fourmore 10.5s infinite;  }
+
 #object_five { -webkit-animation: objectpt_five 10.5s infinite; -o-animation: objectpt_five 10.5s infinite; -moz-animation: objectpt_five 10.5s infinite; -ms-animation: objectpt_five 10.5s infinite; animation: objectpt_five 10.5s infinite; }
 #object_six { -webkit-animation: objectpt_six 10.5s infinite; -o-animation: objectpt_six 10.5s infinite; -moz-animation: objectpt_six 10.5s infinite; -ms-animation: objectpt_six 10.5s infinite; animation: objectpt_six 10.5s infinite; }
 #object_seven { -webkit-animation: objectpt_seven 10.5s infinite; -o-animation: objectpt_seven 10.5s infinite; -moz-animation: objectpt_seven 10.5s infinite; -ms-animation: objectpt_seven 10.5s infinite; animation: objectpt_seven 10.5s infinite; }
@@ -143,6 +151,45 @@ button.button-small:hover { background: #07cb79; }
   25% { transform: translate(-60px,-20px) rotate(-45deg); -webkit-transform: translate(-60px,-20px) rotate(-45deg); } 
   100% { transform: translate(-60px,-20px) rotate(-45deg); -webkit-transform: translate(-60px,-20px) rotate(-45deg); }
 }
+
+
+@-webkit-keyframes object_onemore {
+  25% { -webkit-transform: translate(150px,-10px) rotate(45deg); }
+  100% { -webkit-transform: translate(150px,-10px) rotate(45deg); }
+}
+@keyframes object_onemore {
+  25% { transform: translate(150px,-10px) rotate(45deg); -webkit-transform: translate(150px,-10px) rotate(45deg);  } 
+  100% { transform: translate(150px,-10px) rotate(45deg); -webkit-transform: translate(150px,-10px) rotate(45deg); }
+}
+@-webkit-keyframes object_twomore {
+  25% { -webkit-transform: translate(150px,20px) rotate(-45deg); }
+  100% { -webkit-transform: translate(150px,20px) rotate(-45deg); }
+}
+@keyframes object_twomore {
+  25% { transform: translate(150px,20px) rotate(-45deg); -webkit-transform: translate(150px,20px) rotate(-45deg);  } 
+  100% { transform: translate(150px,20px) rotate(-45deg); -webkit-transform: translate(150px,20px) rotate(-45deg); }
+}
+@-webkit-keyframes object_threemore {
+  25% { -webkit-transform: translate(-60px,10px) rotate(45deg); }
+  100% { -webkit-transform: translate(-60px,10px) rotate(45deg); }
+}
+
+@keyframes object_threemore {
+  25% { transform:  translate(-60px,10px) rotate(45deg); -webkit-transform:  translate(-60px,10px) rotate(45deg); } 
+  100% { transform: translate(-60px,10px) rotate(45deg); -webkit-transform: translate(-60px,10px) rotate(45deg); }
+}
+@-webkit-keyframes object_fourmore {
+  25% { -webkit-transform: translate(-60px,-20px) rotate(-45deg); }
+  100% { -webkit-transform: translate(-60px,-20px) rotate(-45deg); }
+}
+@keyframes object_fourmore {
+  25% { transform: translate(-60px,-20px) rotate(-45deg); -webkit-transform: translate(-60px,-20px) rotate(-45deg); } 
+  100% { transform: translate(-60px,-20px) rotate(-45deg); -webkit-transform: translate(-60px,-20px) rotate(-45deg); }
+}
+
+
+
+
 
 @-webkit-keyframes objectpt_five {
   25% { -webkit-transform: translate(10px,-30px) rotate(0deg); }
