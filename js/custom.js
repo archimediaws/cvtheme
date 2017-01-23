@@ -38,7 +38,7 @@ Version: 1.0
          preloader
   *************************/  
    $("#load").fadeOut();
-   $('#loading').delay(0).fadeOut('slow');
+   $('#loading').delay(2000).fadeOut('slow');
 
 /*************************
         Owl carousel
