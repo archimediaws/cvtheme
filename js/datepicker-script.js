@@ -45,7 +45,7 @@ jQuery(function($){
          var events = [ 
             { Title: "Désolé, je ne suis pas disponible ce jour là", Date: new Date("01/24/2017") },
             { Title: "Désolé, je ne suis pas disponible ce jour là", Date: new Date("01/25/2017") },
-            // { Title: "Désolé, je ne suis pas disponible ce jour là", Date: new Date("01/26/2017") },
+            { Title: "Désolé, je ne suis pas disponible ce jour là", Date: new Date("01/26/2017") },
             { Title: "Désolé, je ne suis pas disponible ce jour là", Date: new Date("02/13/2017") },
             { Title: "Désolé, je ne suis pas disponible ce jour là", Date: new Date("02/14/2017") },
             { Title: "Désolé, je ne suis pas disponible ce jour là", Date: new Date("02/15/2017") },
