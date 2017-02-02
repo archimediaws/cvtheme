@@ -13,7 +13,7 @@ Version: 1.0
  
 :: General
 :: Button 
-:: loading === en attente à modifier 
+:: loading 
 :: Intro bg
 :: Header
 :: About
@@ -109,6 +109,9 @@ button.button-small:hover { background: #07cb79; }
 #object_five { -webkit-animation: objectpt_five 10.5s infinite; -o-animation: objectpt_five 10.5s infinite; -moz-animation: objectpt_five 10.5s infinite; -ms-animation: objectpt_five 10.5s infinite; animation: objectpt_five 10.5s infinite; }
 #object_six { -webkit-animation: objectpt_six 10.5s infinite; -o-animation: objectpt_six 10.5s infinite; -moz-animation: objectpt_six 10.5s infinite; -ms-animation: objectpt_six 10.5s infinite; animation: objectpt_six 10.5s infinite; }
 #object_seven { -webkit-animation: objectpt_seven 10.5s infinite; -o-animation: objectpt_seven 10.5s infinite; -moz-animation: objectpt_seven 10.5s infinite; -ms-animation: objectpt_seven 10.5s infinite; animation: objectpt_seven 10.5s infinite; }
+
+#object_slash { -webkit-animation: object_slash 10.5s infinite; -o-animation: object_slash 10.5s infinite; -moz-animation: object_slash 10.5s infinite; -ms-animation: object_slash 10.5s infinite;  animation: object_slash 10.5s infinite; }
+
 
 @-webkit-keyframes loading-center-absolute {
   100% { -webkit-transform: rotate(-45deg); }
@@ -216,6 +219,16 @@ button.button-small:hover { background: #07cb79; }
 @keyframes objectpt_seven {
   25% { transform: translate(30px,-30px) rotate(0deg); -webkit-transform: translate(30px,-30px) rotate(0deg); } 
   100% { transform: translate(30px,-30px) rotate(0deg); -webkit-transform: translate(30px,-30px) rotate(0deg); }
+}
+
+
+@-webkit-keyframes object_slash {
+  25% { -webkit-transform: translate(-10px,-30px) rotate(-60deg); }
+  100% { -webkit-transform: translate(-10px,-30px) rotate(-60deg); }
+}
+@keyframes object_slash {
+  25% { transform: translate(-10px,-30px) rotate(-60deg); -webkit-transform: translate(-10px,-30px) rotate(-60deg);  } 
+  100% { transform: translate(-10px,-30px) rotate(-60deg); -webkit-transform: translate(-10px,-30px) rotate(-60deg); }
 }
 
 
